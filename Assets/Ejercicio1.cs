@@ -28,12 +28,12 @@ public class Ejercicio1 : MonoBehaviour
 
             if (Moneda == "E" || Moneda == "e")
             {
-                Debug.Log(" la conversión te queda en " + MontoPesos / ConversiónEuros + " Euros ");
+                Debug.Log(" la conversión de " + MontoPesos + "pesos te queda en " + MontoPesos / ConversiónEuros + " Euros ");
             }
 
             else if (Moneda == "D" || Moneda == "d")
             {
-                Debug.Log(" la conversión te queda en " + MontoPesos / ConversiónDolares + " Dolares ");
+                Debug.Log(" la conversión de " + MontoPesos + " pesos te queda en " + MontoPesos / ConversiónDolares + " Dolares ");
 
             }
 
